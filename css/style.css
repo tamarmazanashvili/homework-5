@@ -168,3 +168,31 @@ header{
 	font-family: 'Helvetica Neue', sans-serif;
 
 }
+
+.section-left{
+	display: inline-block;
+	vertical-align: middle;
+	
+}
+
+.section-right{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 40px;
+}
+
+.section-bottom{
+	margin-top: 40px;
+
+	
+}
+
+
+/*footer*/
+
+footer{
+	width: 100%;
+	height: 200px;
+	background-color: #A6ADB4;
+	margin-top: 37px;
+}
