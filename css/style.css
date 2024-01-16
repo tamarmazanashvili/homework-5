@@ -1,15 +1,28 @@
 /* header */
 
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-5?styles=103502');
+
+body{
+	background-color:#F8FCFC;
+
+}
+
 header{
 	margin-top: 18px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	
 }
 
 .logo{
 	display: inline-block;
 	color: #FA6980;
-	font-size: 13px;
+	font-size: 16px;
 	margin-left: 20px;
 	vertical-align: middle;
+	font-family: 'Helvetica Neue', sans-serif;
 
 }
 
@@ -17,16 +30,141 @@ header{
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 90px;
-	font-size: 11px;
+ 	font-family: 'Helvetica Neue', sans-serif;
+ 	
+                                                
 }
 
 .nav-li{
 	display: inline-block;
 	margin-left: 26px;
+	
+}
+
+
+.nav-a{
+	color: grey;
+	
+}
+
+.active{
+	color:#343638;
 }
 
 .user{
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 39px;
+}
+
+/*heading*/
+
+.heading{
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 140px;
+	margin-top: 75px;
+	font-family: 'Helvetica Neue', sans-serif;
+
+}
+/*section top*/
+
+.section-top{
+	margin-top: 40px;
+
+}
+
+
+.article-1{
+	background-color: white;
+	height: 360px;
+	display: inline-block;
+	margin-left: 140px;
+	position: relative;
+	
+}
+
+.article-2{
+	background-color: white;
+	height: 360px;
+	display: inline-block;
+	position: relative;
+	margin-left: 40px;
+}
+
+.article-3{
+	background-color: white;
+	height: 360px;
+	display: inline-block;
+	position: relative;
+	margin-left: 40px;
+}
+
+
+
+.image-heading{
+	position: absolute;
+	left: 40px;
+	top: 28px;
+	color: #ffff;
+	font-size: 16px;
+	font-family: 'Helvetica Neue', sans-serif;
+
+
+}
+
+
+.image-paragraph{
+	position: absolute;
+	left: 40px;
+	top: 246px;
+	color: #A6ADB4;
+	font-size: 13px;
+	width: 280px;
+	font-family: 'Helvetica Neue', sans-serif;
+}
+
+.image-time{
+	position: absolute;
+	left: 66px;
+	top: 279px;
+	color: #A6ADB4;
+	font-size: 13px;
+	font-family: 'Helvetica Neue', sans-serif;
+}
+
+.clock{
+	position: absolute;
+	left: 40px;
+	top: 279px;
+}
+
+/* section bottom */
+
+.heading2{
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 140px;
+	margin-top: 58px;
+	font-family: 'Helvetica Neue', sans-serif;
+
+}
+
+.image2{
+	margin-left: 140px;
+	margin-top: 40px;
+}
+
+.bottom-top-left{
+	position: relative;
+}
+
+.bottom-image-heading{
+	position: absolute;
+	left: 420px;
+	top:215px;
+	color: white;
+	font-size: 16px;
+	font-family: 'Helvetica Neue', sans-serif;
+
 }
